@@ -2,5 +2,8 @@
 int main()
 {
 	int i = 0;
-	printf("%d",i);
+	while(i<100)
+	{
+		printf("%d",i++);
+	}
 }
