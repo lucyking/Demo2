@@ -4,6 +4,8 @@ int main()
 	int i = 0;
 	while(i<100)
 	{
-		printf("%d",i++);
+		if(1%2==0){
+			printf("%d",i++);
+		}
 	}
 }
